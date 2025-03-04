@@ -2,6 +2,7 @@
 [NPM Version](https://img.shields.io/npm/v/@pickle-string/fluorite-stack) ![NPM Downloads](https://img.shields.io/npm/dm/@pickle-string/fluorite-stack) ![GitHub Repo stars](https://img.shields.io/github/stars/PickleOnAString/FlouriteTemplate)
 # Flourite
 setup using: ``npx @pickle-string/fluorite-stack``
+
 you can then run the project using: ``npm run dev``
 
 ## why did i make this?

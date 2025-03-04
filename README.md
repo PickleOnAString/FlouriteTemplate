@@ -7,3 +7,18 @@ you can then run the project using: ``npm run dev``
 
 ## why did i make this?
 I like seperation in my code, I don't want my js mixed with my css, and I don't want my client mixed with my server. so i thought an npx package that created a mono repo for server and client could be useful!
+
+## what does it use?
+Client:
+- Router: TanStack Router
+- Build System: Vite
+- State: Jotai & TankStack Query
+- Syling: Sass
+
+Server:
+- Handling requests: Express
+- Database ORM: drizzel
+- Routing: custom router(very W.I.P)
+
+Misc:
+- Running Server & Client: Concurrently

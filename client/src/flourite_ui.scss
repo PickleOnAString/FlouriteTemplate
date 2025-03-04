@@ -1,0 +1,62 @@
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flourite-button {
+    border: none;
+    background-color: var(--flourite-interactable);
+    color: white;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--flourite-interactable-hover);
+    }
+}
+
+.panel {
+    background-color: var(--flourite-pannel);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    flex: 1;
+}
+
+.body-margin {
+    margin: 10px;
+}
+
+body {
+    --flourite-background: #1c1c20;
+    --flourite-pannel: #2f2f39;
+    --flourite-interactable: #3f3f4a;
+    --flourite-interactable-hover: #4f4f5a;
+    background-color: var(--flourite-background);
+    color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}

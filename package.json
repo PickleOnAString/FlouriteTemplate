@@ -1,0 +1,14 @@
+{
+  "name": "flourite-template",
+  "version": "1.0.0",
+  "description": "Flourite: a full-stack, dead-simple, react setup",
+  "license": "ISC",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently --names server,client -c green,blue \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

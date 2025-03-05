@@ -8,10 +8,10 @@ function MineFloruriteButton() {
   const queryClient = useQueryClient()
   const mutation = useMutation({
     mutationFn: async () => {
-      await fetch("http://localhost:3000/flourite/increment", {
+      await fetch("http://localhost:3000/fluorite/increment", {
           method: "POST",
       });
-      queryClient.invalidateQueries({ queryKey: ['global_flourite'] })
+      queryClient.invalidateQueries({ queryKey: ['global_fluorite'] })
     },
   })
 
@@ -23,7 +23,7 @@ function MineFloruriteButton() {
   return (
     <div className='panel home-component'>
       <button type="button" onClick={handleClick} className="home-component flourite-button">
-        Mine <span className='flourite-text'>flourite</span>
+        Mine <span className='fluorite-text'>fluorite</span>
       </button>
     </div>
   )

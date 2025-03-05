@@ -1,7 +1,7 @@
 {
-  "name": "flourite-template",
+  "name": "fluorite-template",
   "version": "1.0.0",
-  "description": "Flourite: a full-stack, dead-simple, react setup",
+  "description": "Fluorite: a full-stack, dead-simple, react setup",
   "license": "ISC",
   "scripts": {
     "server": "cd server && npm run dev",
